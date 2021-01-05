@@ -7,7 +7,12 @@
   background-color: rgba(211, 204, 204, 0.507);
   outline: none;
 }
-
+.nav-item .button {
+  background-color: rgba(255, 255, 255, 0.014);
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid white;
+}
 .bannerImage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/homepage.jpg");
   height: 100vh;
@@ -52,6 +57,7 @@
 .category-header ul li {
   padding: 20px;
   font-weight: bold;
+  border-bottom: 5px solid #ffffff;
 }
 
 .category-header ul li:hover {
